@@ -4,6 +4,12 @@
 
 This repository contains the source code and analysis scripts for our group project investigating the determinants of life satisfaction using World Values Survey (WVS) data from Waves 5, 6, and 7.
 
+Dataset:
+wave 7: https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp
+wave 6: https://www.worldvaluessurvey.org/WVSDocumentationWV6.jsp
+wave 5: https://www.worldvaluessurvey.org/WVSDocumentationWV5.jsp
+
+
 ## Repository Contents
 
 *   **`master_pipeline.py`**: The main execution pipeline for WVS Wave 7. It performs data cleaning, imputation, AdaBoost feature selection, Ordinal Logistic Regression, and Random Forest modeling.

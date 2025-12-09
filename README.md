@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 ## Data Setup
 
-**Note:** The raw World Values Survey datasets are **not** included in this repository due to size and redistribution limits. You must download them from the [official WVS website](https://www.worldvaluessurvey.org/) and place them in the project root directory.
+**Note:** The raw World Values Survey datasets are **not** included in this repository due to size and redistribution limits. You can download them from the [official WVS website](https://www.worldvaluessurvey.org/).
 
 Required Files:
 1.  **Wave 5**: `WV5_Data_csv_v20180912.csv`

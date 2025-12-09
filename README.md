@@ -6,13 +6,14 @@ This repository contains the source code and analysis scripts for our group proj
 
 ## Repository Contents
 
-*   **`run_multi_wave_analysis.py`**: **[NEW]** The core script for the Data-Driven analysis. It runs the Ordered Logistic Regression on AdaBoost-selected features for Waves 5, 6, and 7 and generates the ranking plots (`Figure_4...`, `Figure_5...`, etc.).
+*   **`run_multi_wave_analysis.py`**: The core script for the Data-Driven analysis. It runs the Ordered Logistic Regression on AdaBoost-selected features for Waves 5, 6, and 7 and generates the ranking plots (`Figure_4...`, `Figure_5...`, etc.).
+*   **`Theory-driven_SDT_analysis.ipynb`**: Jupyter Notebook containing the initial theory-driven analysis (SDT Framework).
 *   **`master_pipeline.py`**: The main execution pipeline for WVS Wave 7. It performs data cleaning, imputation, AdaBoost feature selection, Ordinal Logistic Regression, and Random Forest modeling.
 *   **`analyze_wave5_6.py`**: The analysis script for WVS Waves 5 and 6, performing consistent cleaning, imputation, and AdaBoost feature extraction.
-*   **`generate_report_plots.py`**: Script used to generate the specific high-quality plots used in the final report.
+*   **`generate_report_plots.py`**: Script used to generate the specific plots used in the final report.
 *   **`clean_wvs_data.py`**: Standalone module for cleaning WVS Wave 7 data.
 *   **`adaboost.ipynb`**: Jupyter Notebook containing exploratory AdaBoost analysis.
-*   **`Theory-driven_SDT_analysis.ipynb`**: Jupyter Notebook containing the initial theory-driven analysis (SDT Framework).
+
 
 ## Prerequisites
 

@@ -17,25 +17,8 @@ This repository contains the analysis scripts for our project. We utilize World 
 *   Python 3.x
 *   pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels, openpyxl
 
-Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
 ## Comparisons
 
 *   **Data-Driven Analysis**: See `run_multi_wave_analysis.py` execution output and generated figures.
 *   **Theory-Driven Analysis**: Variables based on SDT (Competence, Autonomy, Relatedness) are analyzed in `Theory-driven_SDT_analysis.ipynb`.
 
-## How to Run
-
-1.  **Generate Multi-Wave Data-Driven Results:**
-    ```bash
-    python run_multi_wave_analysis.py
-    ```
-    This generates the visual comparisons for all three waves as seen in the report.
-
-2.  **Run Wave 7 Full Processing:**
-    ```bash
-    python run_wave7_pipeline.py
-    ```

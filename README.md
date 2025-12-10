@@ -8,7 +8,7 @@ This repository contains the analysis scripts for our project. We utilize World 
 
 ## Repository Contents
 
-*   **`run_multi_wave_analysis.py`**: **(Primary Script)** Performs the Data-Driven analysis (AdaBoost features) for Waves 5, 6, and 7. Generates the coefficient ranking figures used in the report (`Figure_4...`, `Figure_5...`, etc.).
+*   **`run_multi_wave_analysis.py`**: Performs the Data-Driven analysis (AdaBoost features) for Waves 5, 6, and 7. Generates the coefficient ranking figures used in the report (`Figure_4...`, `Figure_5...`, etc.).
 *   **`run_wave7_pipeline.py`**: A complete pipeline for Wave 7 specifically. Handles raw data cleaning, imputation, AdaBoost feature selection, and Ordered Logistic Regression.
 *   **`analyze_wave5_6.py`**: Analysis script for Waves 5 and 6, performing consistent cleaning and AdaBoost feature extraction.
 *   **`Data_Driven_Analysis.md`**: The draft text and tables for the "Data-Driven Analysis" section of the report.

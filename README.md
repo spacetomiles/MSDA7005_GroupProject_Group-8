@@ -8,9 +8,9 @@ This repository contains the analysis scripts for our project. We utilize World 
 
 ## Repository Contents
 
-*   **`run_multi_wave_analysis.py`**: Takes the *top features* identified and performed the final Ordered Logistic Regression models with standardized coefficient plots (`Figure_4...`, `Figure_5...`, etc.) used in the final report.
 *   **`run_wave7_pipeline.py`**: A complete pipeline for Wave 7 specifically. Handles raw data cleaning, imputation, AdaBoost feature selection, and Ordered Logistic Regression.
 *   **`analyze_wave5_6.py`**: Analysis script for Waves 5 and 6, performing consistent cleaning and AdaBoost feature extraction.
+*   **`run_multi_wave_analysis.py`**: Takes the *top features* identified and performed the final Ordered Logistic Regression models with standardized coefficient plots (`Figure_4...`, `Figure_5...`, etc.) used in the final report.
 
 ## Prerequisites
 

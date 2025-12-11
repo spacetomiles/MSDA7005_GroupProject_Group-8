@@ -71,7 +71,7 @@ def analyze_wave(file_path, wave_name, target_col, output_csv=None, predictor_pr
     for col in df.select_dtypes(include=np.number).columns:
          df.loc[df[col] < 0, col] = np.nan
 
-    # 3. Drop completely empty rows/cols (optional but good)
+    # 3. Drop completely empty rows/cols
     df = df.dropna(axis=1, how='all')
     df = df.dropna(axis=0, how='all')
 

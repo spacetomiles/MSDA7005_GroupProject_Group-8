@@ -164,7 +164,7 @@ def main():
     except Exception as e:
         print(f"Regression failed: {e}")
     
-    print("\nPipeline Complete (No Random Forest).")
+    print("\nPipeline Complete.")
 
 if __name__ == "__main__":
     main()
